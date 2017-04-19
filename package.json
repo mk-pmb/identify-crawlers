@@ -1,0 +1,33 @@
+{ "name": "identify-crawlers",
+  "version": "0.0.1",
+  "description": "My attempt at identifying web crawlers by User-Agent and/or IP. Generate dynamic robots.txt reply with JS, or with PHP if you prefer.",
+  "keywords": [
+    "crawler"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/identify-crawlers#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/identify-crawlers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/identify-crawlers/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "id.js",
+  "scripts": {
+    "test": "nodejs test/all.js"
+  },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.6"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
